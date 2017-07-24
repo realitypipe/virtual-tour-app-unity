@@ -1,0 +1,7 @@
+These settings relate to low level rendering options.
+
+<ONLY_RIFT><title>Virtual Texture Size</title>
+Change to render to a smaller-than-optimal eye buffer. Improves performance but reduces visual quality.
+
+</ONLY_RIFT><ONLY_GEARVR><title>CPU Level, GPU Level</title>
+Varies clock speed of the mobile CPU and GPU. See our mobile Development Guide for details.</ONLY_GEARVR>

@@ -1,0 +1,17 @@
+Controls how this GUI is displayed. It is easier to see the effects of these settings in scenes with nearby objects, such as the Mirror scene. 
+
+The GUI must be displayed a comfortable distance away from the user, but this may place the GUI behind other objects. If the GUI renders in front of all other objects, this creates an uncomfortable conflict. One solution is to fade out the background when the GUI is present. Another is to scale the GUI so that it appears closer to the user when there is geometry in the way, but this may result in the GUI feeling too close.
+
+<title>Draw Over Everything</title>
+Disables depth testing when rendering the UI so that it is always visible, even when further away than other scene geometry. It only makes sense to Z-test a UI if it is attached to an in-game object, such as a monitor.
+
+<title>Auto Distance</title>
+When selected, the UI is automatically drawn smaller and closer to the user when geometry is closer than the default depth of the UI. 
+
+<title>Fade Mode</title>
+Never: The background behind the UI never fades out.
+When Too Close: The background is faded when there is closer geometry that the UI would be drawn over.
+Always: Background is faded whenever the UI is visible.
+
+<title>Fade Level</title>
+The opacity of the background fade.
